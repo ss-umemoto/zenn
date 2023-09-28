@@ -2,7 +2,7 @@
 title: "レビュー支援ツール開発"
 emoji: "👓"
 type: "tech"
-topics: ["レビュー", "gitlab", "vue3", "vuetify3", "typescript"]
+topics: [レビュー, gitlab, vue3, vuetify3, typescript]
 published: true
 published_at: 2023-09-28 09:00
 publication_name: "secondselection"

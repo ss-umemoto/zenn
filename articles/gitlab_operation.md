@@ -2,7 +2,7 @@
 title: "GitLabをGitサーバの役割だけに終わらないための設定・運用"
 emoji: "🦊"
 type: "tech"
-topics: ["gitlab"]
+topics: [gitlab]
 published: true
 published_at: 2023-09-21 09:00
 publication_name: "secondselection"
