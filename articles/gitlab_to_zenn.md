@@ -2,7 +2,7 @@
 title: "GitLabで管理したzennの記事投稿"
 emoji: "🦊"
 type: "tech"
-topics: ["gitlab"]
+topics: [gitlab]
 published: true
 published_at: 2023-09-07 09:00
 publication_name: "secondselection"
