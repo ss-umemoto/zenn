@@ -9,7 +9,8 @@
       "extensions": [
         "taichi.vscode-textlint",
         "DavidAnson.vscode-markdownlint",
-        "hediet.vscode-drawio"
+        "hediet.vscode-drawio",
+        "bierner.markdown-mermaid"
       ],
       "settings": {}
     }
