@@ -384,6 +384,10 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 - lintなどの拡張機能をチームで統一ができる
 - dockerを使っているプロジェクトであれば、容易に使える
 
+Dockerfileの書き方は以下の記事にまとめていますので、こちらもご参照ください。
+
+https://zenn.dev/secondselection/articles/create_clean_dockerfile
+
 ## 参考
 
 https://codezine.jp/article/detail/16467
