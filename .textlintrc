@@ -4,7 +4,14 @@
   "rules": {
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": {
-      "no-exclamation-question-mark": false
+      "no-exclamation-question-mark": false,
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow": [
+          "一変量異常検出",
+          "多変量異常検出"
+        ]
+      }
     },
     "spellcheck-tech-word": true
   }
