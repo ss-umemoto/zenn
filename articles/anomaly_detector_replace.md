@@ -85,8 +85,8 @@ MLflow-Docker
 ├── mysql
 │   └── data
 ├── Dockerfile
-├── requirement.txt
-├── requirement-dev.txt
+├── requirements.txt
+├── requirements-dev.txt
 └── docker-compose.yml
 ```
 
@@ -116,7 +116,7 @@ MLflow-Docker
 pip install --no-cache-dir --ignore-installed -r requirements-dev.txt
 ```
 
-```txt: requirement.txt
+```txt: requirements.txt
 time-series-anomaly-detector
 mlflow
 numpy
