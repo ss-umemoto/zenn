@@ -5,11 +5,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.144"
+    "zenn-cli": "^0.2.3"
   },
   "devDependencies": {
-    "markdownlint-cli2": "^0.9.0",
-    "textlint": "^13.3.3",
+    "markdownlint-cli2": "^0.18.1",
+    "textlint": "^15.2.2",
     "textlint-rule-preset-ja-spacing": "^2.3.0",
     "textlint-rule-preset-ja-technical-writing": "^8.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
