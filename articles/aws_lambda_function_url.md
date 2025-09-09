@@ -1,5 +1,5 @@
 ---
-title: "CloudFront + Lambda Function URL + Lambda Web AdapterでFlaskのレスポンスをストリーミング"
+title: "CloudFront + Lambda Function URL + LWAでFlaskのレスポンスをストリーミング"
 emoji: "☁️"
 type: "tech"
 topics: [aws, cloudfront, lambda, streaming, flask]
