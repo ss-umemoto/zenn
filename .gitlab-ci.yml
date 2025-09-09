@@ -1,4 +1,5 @@
 variables:
+  GIT_DEPTH: "0"
   REVIEWDOG_GITLAB_API_TOKEN: ${REVIEWDOG_GITLAB_API_TOKEN}
 
 stages:
@@ -9,5 +10,7 @@ textlint:
   image: node:latest
   script:
     - yarn install
-    - wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh | sh -s
+    - mkdir -p ./bin
+    - wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh | sh -s -- -b ./bin
     - yarn textlint -f checkstyle ./articles/ ./books/ | bin/reviewdog -f=checkstyle -name="textlint" -reporter=gitlab-mr-discussion
+
