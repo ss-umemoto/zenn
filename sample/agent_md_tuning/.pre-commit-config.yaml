@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: maintenance-check
+        name: Maintenance Check
+        entry: .githooks/check-maintenance.sh
+        language: system
+        pass_filenames: false   # 引数としてファイルリストを渡さない場合
